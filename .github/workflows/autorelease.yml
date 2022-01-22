@@ -33,7 +33,7 @@ jobs:
       run: |
         nuget.exe restore SharpHound3.sln
         msbuild.exe SharpHound3.sln /p:Configuration=Release /p:Platform="Any CPU" /p:OutputPath=compiled/
-        Copy-Item -Path SharpHound3\compiled\SharpHound3.exe -Destination compiled\SharpHound3.exe
+        Copy-Item -Path SharpHound3\compiled\SharpHound.exe -Destination compiled\SharpHound3.exe
 
     - name: Build Package
       # Powershell is utter fucking trash.
