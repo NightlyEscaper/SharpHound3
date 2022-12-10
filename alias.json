@@ -1,9 +1,9 @@
 {
     "name": "Sharp Hound 3",
     "version": "0.0.0",
-    "command_name": "sharp-hound-3",
+    "command_name": "sharphound3",
     "original_author": "@rvazarkar",
-    "repo_url": "https://github.com/sliverarmory/SharpHound3",
+    "repo_url": "https://github.com/NightlyEscaper/SharpHound3",
     "help": "C# based BloodHound Ingestor",
 
     "entrypoint": "Main",
